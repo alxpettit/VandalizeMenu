@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "id": "starter",
+  "id": "vandalize",
   "version": "${version}",
 
-  "name": "Fabric Starter",
-  "icon": "assets/starter/icon.png",
-  "description": "Template for starting out Fabric mods",
-  "license": "MIT",
+  "name": "Vandalize Menu",
+  "icon": "assets/vandalize/icon.png",
+  "description": "A mod that messes with the menu a little bit",
+  "license": "GPLv3",
   "contact": {
     "sources": "https://github.com/CottonMC/FabricStarter"
   },
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.cottonmc.starter.FabricStarter"
+      "xyz.achu.vandalize.VandalizeMenu"
     ]
   },
   "mixins": [
-    "mixins.starter.json"
+    "mixins.vandalize.json"
   ],
   "depends": {
     "fabricloader": ">=0.4.0"
